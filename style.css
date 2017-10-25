@@ -1,0 +1,106 @@
+html {
+  font-size: 18px;
+}
+
+p {
+  color: #01161E;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  line-height: 1.8rem;
+}
+
+h1 {
+  padding-right: 5%;
+  padding-top: 25%;
+  font-size: 5.75rem;
+  color: #EA9DB9;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bolder;
+  line-height: 4.3rem;
+}
+
+.dek {
+  color: #96000C;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 2rem;
+  padding-right: 5%;
+  padding-top: 1%;
+  line-height: 30px;
+}
+
+p.introduction:first-letter {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+ font-size : 4rem;
+ float: left;
+ color: #EA9DB9;
+ line-height: 2.5rem;
+ font-weight: bolder;
+ }
+
+.poem {
+   color: #EA9DB9;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   font-size: 1.25rem;
+   line-height: 1.5rem;
+   margin-left: 10%;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+   font-weight: bold;
+ }
+
+.byline {
+   color: #96000C;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+ }
+
+ .credit {
+   font-size: 0.75rem;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+   color: #01161E;
+   padding-bottom: 1rem;
+ }
+
+blockquote.pullquote p {
+   color: #01161E;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+   font-size: 1.25rem;
+   line-height: 1.5rem;
+ }
+
+ blockquote.blockquote-extend p {
+   font-size: 1.25rem;
+   font-family: 'Fira Sans Extra Condensed', sans-serif;
+   color: #01161E;
+ }
+
+ @media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 2.25rem;
+    padding-top: 0px;
+  }
+
+  .dek {
+    font-size: 1.5rem;
+    line-height: 1.45rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  blockquote.pullquote p {
+     color: #83399D;
+     font-family: serif;
+     font-size: .66rem;
+     line-height: .66rem;
+   }
+
+   .poem {
+      line-height: 1.2rem;
+      margin-left: 5%;
+    }
+
+    .credit {
+      font-size: 0.5rem;
+    }
+}
